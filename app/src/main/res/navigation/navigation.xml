@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/navigation"
+            app:startDestination="@id/frag_nav_characters">
+	
+	<fragment
+		android:id="@+id/frag_nav_characters"
+		android:name="it.meridian.sb35.Frag_Characters"
+		android:label="Characters"
+		tools:layout="@layout/frag_nav_characters">
+		<action
+			android:id="@+id/nav_action_to_character"
+			app:destination="@id/frag_nav_character"/>
+	</fragment>
+	
+	<fragment
+		android:id="@+id/frag_nav_character"
+		android:name="it.meridian.sb35.Frag_Character"
+		android:label="frag_character"
+		tools:layout="@layout/frag_nav_characters_character">
+		<action
+			android:id="@+id/nav_action_to_slot_assign"
+			app:destination="@id/frag_nav_slot_assign"/>
+		<action
+			android:id="@+id/nav_action_to_sources_known"
+			app:destination="@id/frag_nav_sources_known"/>
+		<action
+			android:id="@+id/nav_action_to_sources_scroll"
+			app:destination="@id/frag_nav_sources_scroll"/>
+	</fragment>
+	
+	<fragment
+		android:id="@+id/frag_nav_sources_scroll"
+		android:name="it.meridian.sb35.Frag_Sources"
+		android:label="nav_characters_character_sources"
+		tools:layout="@layout/frag_nav_characters_character_sources">
+		<action
+			android:id="@+id/nav_action_to_source"
+			app:destination="@id/frag_nav_source"/>
+	</fragment>
+	
+	<fragment
+		android:id="@+id/frag_nav_slot_assign"
+		android:name="it.meridian.sb35.Frag_Prepare"
+		android:label="nav_characters_character_prepare"
+		tools:layout="@layout/frag_nav_characters_character_prepare">
+		<action
+			android:id="@+id/nav_action_pop_to_character"
+			app:popUpTo="@id/frag_nav_slot_assign"
+			app:popUpToInclusive="true"/>
+	</fragment>
+	
+	<fragment
+		android:id="@+id/frag_nav_sources_known"
+		android:name="it.meridian.sb35.Frag_Sources"
+		android:label="nav_characters_character_sources"
+		tools:layout="@layout/frag_nav_characters_character_sources">
+		<action
+			android:id="@+id/nav_action_to_source"
+			app:destination="@id/frag_nav_source"/>
+	</fragment>
+	<fragment
+		android:id="@+id/frag_nav_source"
+		android:name="it.meridian.sb35.Frag_Source"
+		android:label="nav_characters_character_sources_source"
+		tools:layout="@layout/frag_nav_characters_character_sources_source">
+		<action
+			android:id="@+id/nav_action_return_to_character"
+			app:popUpTo="@+id/frag_nav_character"
+			/>
+	</fragment>
+	
+	<fragment
+		android:id="@+id/frag_nav_spell"
+		android:name="it.meridian.sb35.Frag_SpellInfo"
+		android:label="frag_spell_details"
+		tools:layout="@layout/frag_nav_spell">
+	</fragment>
+	
+	<action android:id="@+id/nav_action_to_spell"
+	        app:destination="@id/frag_nav_spell"/>
+	<fragment
+		android:id="@+id/frag_nav_preferences"
+		android:name="it.meridian.sb35.Preferences"
+		android:label="Preferences"></fragment>
+	<fragment
+		android:id="@+id/frag_nav_browser"
+		android:name="it.meridian.sb35.Frag_Sources"
+		android:label="Spell Browser"
+		tools:layout="@layout/frag_nav_characters_character_sources">
+		<action
+			android:id="@+id/nav_action_to_source"
+			app:destination="@id/frag_nav_browser_source"/>
+	</fragment>
+	<fragment
+		android:id="@+id/frag_nav_browser_source"
+		android:name="it.meridian.sb35.Frag_Source"
+		android:label="frag_nav_characters_character_sources_source"
+		tools:layout="@layout/frag_nav_characters_character_sources_source"/>
+	<action
+		android:id="@+id/nav_action_to_preferences"
+		app:destination="@id/frag_nav_preferences"/>
+</navigation>

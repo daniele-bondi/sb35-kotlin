@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                                            xmlns:tools="http://schemas.android.com/tools"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+	>
+	
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+		
+		<TableLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:divider="@drawable/table_divider_horizontal"
+			android:showDividers="beginning|middle|end">
+			
+			<TableRow
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:divider="@drawable/table_divider_vertical"
+				android:showDividers="beginning|middle|end">
+				
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingStart="1dp"
+					android:paddingEnd="3dp"
+					android:text="@string/spell_source"
+					android:textAlignment="viewEnd"
+					android:textSize="12sp"
+					android:textStyle="normal|bold"/>
+				
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:paddingStart="3dp"
+					android:paddingEnd="1dp"
+					android:textSize="12sp"
+					tools:text="PHB 123"/>
+			</TableRow>
+			
+			<TableRow
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:divider="@drawable/table_divider_vertical"
+				android:showDividers="beginning|middle|end">
+				
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingStart="1dp"
+					android:paddingEnd="3dp"
+					android:text="@string/levels"
+					android:textAlignment="viewEnd"
+					android:textSize="12sp"
+					android:textStyle="normal|bold"/>
+				
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:paddingStart="3dp"
+					android:paddingEnd="1dp"
+					android:textSize="12sp"
+					tools:text="Cleric0, Wizard 0"/>
+			</TableRow>
+			
+			<TableRow
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:divider="@drawable/table_divider_vertical"
+				android:showDividers="beginning|middle|end">
+				
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingStart="1dp"
+					android:paddingEnd="3dp"
+					android:text="@string/spell_school"
+					android:textAlignment="viewEnd"
+					android:textSize="12sp"
+					android:textStyle="normal|bold"/>
+				
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:paddingStart="3dp"
+					android:paddingEnd="1dp"
+					android:textSize="12sp"
+					tools:text="Someschool (Somesubschool)"/>
+			</TableRow>
+			
+			<TableRow
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:divider="@drawable/table_divider_vertical"
+				android:showDividers="beginning|middle|end">
+				
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingStart="1dp"
+					android:paddingEnd="3dp"
+					android:text="@string/spell_descriptors"
+					android:textAlignment="viewEnd"
+					android:textSize="12sp"
+					android:textStyle="normal|bold"/>
+				
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:paddingStart="3dp"
+					android:paddingEnd="1dp"
+					android:textSize="12sp"
+					tools:text="[Fire][Wind]"/>
+			</TableRow>
+			
+			<TableRow
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:divider="@drawable/table_divider_vertical"
+				android:showDividers="beginning|middle|end">
+				
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingStart="1dp"
+					android:paddingEnd="3dp"
+					android:text="@string/spell_components"
+					android:textAlignment="viewEnd"
+					android:textSize="12sp"
+					android:textStyle="normal|bold"/>
+				
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:paddingStart="3dp"
+					android:paddingEnd="1dp"
+					android:textSize="12sp"
+					tools:text="V, S, M, F/DF, XP"/>
+			</TableRow>
+			
+			<TableRow
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:divider="@drawable/table_divider_vertical"
+				android:showDividers="beginning|middle|end">
+				
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingStart="1dp"
+					android:paddingEnd="3dp"
+					android:text="@string/spell_cast_time"
+					android:textAlignment="viewEnd"
+					android:textSize="12sp"
+					android:textStyle="normal|bold"/>
+				
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:paddingStart="3dp"
+					android:paddingEnd="1dp"
+					android:textSize="12sp"
+					tools:text="1 standard action"/>
+			</TableRow>
+			
+			<TableRow
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:divider="@drawable/table_divider_vertical"
+				android:showDividers="beginning|middle|end">
+				
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingStart="1dp"
+					android:paddingEnd="3dp"
+					android:text="@string/spell_range"
+					android:textAlignment="viewEnd"
+					android:textSize="12sp"
+					android:textStyle="normal|bold"/>
+				
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:paddingStart="3dp"
+					android:paddingEnd="1dp"
+					android:textSize="12sp"
+					tools:text="Short (25 ft. + 5 ft./level)"/>
+			</TableRow>
+			
+			<TableRow
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:divider="@drawable/table_divider_vertical"
+				android:showDividers="beginning|middle|end">
+				
+				<TextView
+					android:id="@+id/spell_effect_type"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingStart="1dp"
+					android:paddingEnd="3dp"
+					android:text="@string/spell_effect"
+					android:textAlignment="viewEnd"
+					android:textSize="12sp"
+					android:textStyle="normal|bold"/>
+				
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:paddingStart="3dp"
+					android:paddingEnd="1dp"
+					android:textSize="12sp"
+					tools:text="Instantaneous"/>
+			</TableRow>
+			
+			<TableRow
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:divider="@drawable/table_divider_vertical"
+				android:showDividers="beginning|middle|end">
+				
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingStart="1dp"
+					android:paddingEnd="3dp"
+					android:text="@string/spell_duration"
+					android:textAlignment="viewEnd"
+					android:textSize="12sp"
+					android:textStyle="normal|bold"/>
+				
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:paddingStart="3dp"
+					android:paddingEnd="1dp"
+					android:textSize="12sp"
+					tools:text="1 round/level"/>
+			</TableRow>
+			
+			<TableRow
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:divider="@drawable/table_divider_vertical"
+				android:showDividers="beginning|middle|end">
+				
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingStart="1dp"
+					android:paddingEnd="3dp"
+					android:text="@string/spell_saving_throw"
+					android:textAlignment="viewEnd"
+					android:textSize="12sp"
+					android:textStyle="normal|bold"/>
+				
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:paddingStart="3dp"
+					android:paddingEnd="1dp"
+					android:textSize="12sp"
+					tools:text="None"/>
+			</TableRow>
+			
+			<TableRow
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:divider="@drawable/table_divider_vertical"
+				android:showDividers="beginning|middle|end">
+				
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingStart="1dp"
+					android:paddingEnd="3dp"
+					android:text="@string/spell_resistance"
+					android:textAlignment="viewEnd"
+					android:textSize="12sp"
+					android:textStyle="normal|bold"/>
+				
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:paddingStart="3dp"
+					android:paddingEnd="1dp"
+					android:textSize="12sp"
+					tools:text="Yes"/>
+			</TableRow>
+		</TableLayout>
+		
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="3dp"
+			android:textAlignment="center"
+			android:textSize="12sp"
+			android:textStyle="normal|italic"
+			tools:text="The quick brown fox jumps over the lazy dog"/>
+		
+		<WebView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+			android:backgroundTint="@android:color/transparent"/>
+	
+	</LinearLayout>
+</android.support.v4.widget.NestedScrollView>

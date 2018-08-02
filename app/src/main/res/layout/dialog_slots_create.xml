@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:id="@android:id/list"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="wrap_content"
+                                             android:layout_gravity="center"
+	>
+	
+	<it.meridian.sb35.views.IntPickerView
+		android:id="@+id/int_picker_0"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="16dp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.6"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:maxValue="9"
+		app:minValue="0"
+		tools:curValue="9"/>
+	
+	<it.meridian.sb35.views.IntPickerView
+		android:id="@+id/int_picker_1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="8dp"
+		app:layout_constraintEnd_toEndOf="@+id/int_picker_0"
+		app:layout_constraintStart_toStartOf="@+id/int_picker_0"
+		app:layout_constraintTop_toBottomOf="@+id/int_picker_0"
+		app:maxValue="9"
+		app:minValue="0"
+		tools:curValue="8"/>
+	
+	<it.meridian.sb35.views.IntPickerView
+		android:id="@+id/int_picker_2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="8dp"
+		app:layout_constraintEnd_toEndOf="@+id/int_picker_1"
+		app:layout_constraintStart_toStartOf="@+id/int_picker_1"
+		app:layout_constraintTop_toBottomOf="@+id/int_picker_1"
+		app:maxValue="9"
+		app:minValue="0"
+		tools:curValue="7"/>
+	
+	<it.meridian.sb35.views.IntPickerView
+		android:id="@+id/int_picker_3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="8dp"
+		app:layout_constraintEnd_toEndOf="@+id/int_picker_2"
+		app:layout_constraintStart_toStartOf="@+id/int_picker_2"
+		app:layout_constraintTop_toBottomOf="@+id/int_picker_2"
+		app:maxValue="9"
+		app:minValue="0"
+		tools:curValue="6"/>
+	
+	<it.meridian.sb35.views.IntPickerView
+		android:id="@+id/int_picker_4"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="8dp"
+		app:layout_constraintEnd_toEndOf="@+id/int_picker_3"
+		app:layout_constraintStart_toStartOf="@+id/int_picker_3"
+		app:layout_constraintTop_toBottomOf="@+id/int_picker_3"
+		app:maxValue="9"
+		app:minValue="0"
+		tools:curValue="5"/>
+	
+	<it.meridian.sb35.views.IntPickerView
+		android:id="@+id/int_picker_5"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="8dp"
+		app:layout_constraintEnd_toEndOf="@+id/int_picker_4"
+		app:layout_constraintStart_toStartOf="@+id/int_picker_4"
+		app:layout_constraintTop_toBottomOf="@+id/int_picker_4"
+		app:maxValue="9"
+		app:minValue="0"
+		tools:curValue="4"/>
+	
+	<it.meridian.sb35.views.IntPickerView
+		android:id="@+id/int_picker_6"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="8dp"
+		app:layout_constraintEnd_toEndOf="@+id/int_picker_5"
+		app:layout_constraintStart_toStartOf="@+id/int_picker_5"
+		app:layout_constraintTop_toBottomOf="@+id/int_picker_5"
+		app:maxValue="9"
+		app:minValue="0"
+		tools:curValue="3"/>
+	
+	<it.meridian.sb35.views.IntPickerView
+		android:id="@+id/int_picker_7"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="8dp"
+		app:layout_constraintEnd_toEndOf="@+id/int_picker_6"
+		app:layout_constraintStart_toStartOf="@+id/int_picker_6"
+		app:layout_constraintTop_toBottomOf="@+id/int_picker_6"
+		app:maxValue="9"
+		app:minValue="0"
+		tools:curValue="2"/>
+	
+	<it.meridian.sb35.views.IntPickerView
+		android:id="@+id/int_picker_8"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="8dp"
+		app:layout_constraintEnd_toEndOf="@+id/int_picker_7"
+		app:layout_constraintStart_toStartOf="@+id/int_picker_7"
+		app:layout_constraintTop_toBottomOf="@+id/int_picker_7"
+		app:maxValue="9"
+		app:minValue="0"
+		tools:curValue="1"/>
+	
+	<it.meridian.sb35.views.IntPickerView
+		android:id="@+id/int_picker_9"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="8dp"
+		app:layout_constraintEnd_toEndOf="@+id/int_picker_8"
+		app:layout_constraintStart_toStartOf="@+id/int_picker_8"
+		app:layout_constraintTop_toBottomOf="@+id/int_picker_8"
+		app:maxValue="9"
+		app:minValue="0"
+		tools:curValue="0"/>
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="0dp"
+		android:layout_marginEnd="8dp"
+		android:gravity="center"
+		android:text="@string/level_0"
+		android:textSize="18sp"
+		app:layout_constraintBottom_toBottomOf="@+id/int_picker_0"
+		app:layout_constraintEnd_toStartOf="@+id/int_picker_0"
+		app:layout_constraintTop_toTopOf="@+id/int_picker_0"/>
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="0dp"
+		android:layout_marginEnd="8dp"
+		android:gravity="center"
+		android:text="@string/level_1"
+		android:textSize="18sp"
+		app:layout_constraintBottom_toBottomOf="@+id/int_picker_1"
+		app:layout_constraintEnd_toStartOf="@+id/int_picker_1"
+		app:layout_constraintTop_toTopOf="@+id/int_picker_1"/>
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="0dp"
+		android:layout_marginEnd="8dp"
+		android:gravity="center"
+		android:text="@string/level_2"
+		android:textSize="18sp"
+		app:layout_constraintBottom_toBottomOf="@+id/int_picker_2"
+		app:layout_constraintEnd_toStartOf="@+id/int_picker_2"
+		app:layout_constraintTop_toTopOf="@+id/int_picker_2"/>
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="0dp"
+		android:layout_marginEnd="8dp"
+		android:gravity="center"
+		android:text="@string/level_3"
+		android:textSize="18sp"
+		app:layout_constraintBottom_toBottomOf="@+id/int_picker_3"
+		app:layout_constraintEnd_toStartOf="@+id/int_picker_3"
+		app:layout_constraintTop_toTopOf="@+id/int_picker_3"/>
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="0dp"
+		android:layout_marginEnd="8dp"
+		android:gravity="center"
+		android:text="@string/level_4"
+		android:textSize="18sp"
+		app:layout_constraintBottom_toBottomOf="@+id/int_picker_4"
+		app:layout_constraintEnd_toStartOf="@+id/int_picker_4"
+		app:layout_constraintTop_toTopOf="@+id/int_picker_4"/>
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="0dp"
+		android:layout_marginEnd="8dp"
+		android:gravity="center"
+		android:text="@string/level_5"
+		android:textSize="18sp"
+		app:layout_constraintBottom_toBottomOf="@+id/int_picker_5"
+		app:layout_constraintEnd_toStartOf="@+id/int_picker_5"
+		app:layout_constraintTop_toTopOf="@+id/int_picker_5"/>
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="0dp"
+		android:layout_marginEnd="8dp"
+		android:layout_weight="1"
+		android:gravity="center"
+		android:text="@string/level_6"
+		android:textSize="18sp"
+		app:layout_constraintBottom_toBottomOf="@+id/int_picker_6"
+		app:layout_constraintEnd_toStartOf="@+id/int_picker_6"
+		app:layout_constraintTop_toTopOf="@+id/int_picker_6"/>
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="0dp"
+		android:layout_marginEnd="8dp"
+		android:gravity="center"
+		android:text="@string/level_7"
+		android:textSize="18sp"
+		app:layout_constraintBottom_toBottomOf="@+id/int_picker_7"
+		app:layout_constraintEnd_toStartOf="@+id/int_picker_7"
+		app:layout_constraintTop_toTopOf="@+id/int_picker_7"/>
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="0dp"
+		android:layout_marginEnd="8dp"
+		android:gravity="center"
+		android:text="@string/level_8"
+		android:textSize="18sp"
+		app:layout_constraintBottom_toBottomOf="@+id/int_picker_8"
+		app:layout_constraintEnd_toStartOf="@+id/int_picker_8"
+		app:layout_constraintTop_toTopOf="@+id/int_picker_8"/>
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="0dp"
+		android:layout_marginEnd="8dp"
+		android:gravity="center"
+		android:text="@string/level_9"
+		android:textSize="18sp"
+		app:layout_constraintBottom_toBottomOf="@+id/int_picker_9"
+		app:layout_constraintEnd_toStartOf="@+id/int_picker_9"
+		app:layout_constraintTop_toTopOf="@+id/int_picker_9"
+		app:layout_constraintVertical_bias="0.0"/>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,68 @@
+<resources>
+	
+	<style name="Spellbook"/>
+	
+	<style name="Spellbook.Widget"/>
+	
+	
+	<style name="Spellbook.App.Default" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="android:windowBackground">@drawable/background</item>
+		<item name="android:checkboxStyle">@style/Spellbook.Widget.Checkbox</item>
+		<item name="android:radioButtonStyle">@style/Spellbook.Widget.RadioButton</item>
+		<item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+		<item name="searchViewStyle">@style/Spellbook.SearchView</item>
+	</style>
+	
+	<style name="Spellbook.App.Green" parent="Spellbook.App.Default">
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+	</style>
+	
+	<style name="Spellbook.App.Blue" parent="Spellbook.App.Default">
+		<item name="colorPrimary">@color/colorPrimaryAlt</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryAltDark</item>
+		<item name="colorAccent">@color/colorAccentAlt</item>
+	</style>
+	
+	<style name="Spellbook.NoActionBar" parent="Spellbook.App.Green">
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+	</style>
+	
+	
+	<style name="Spellbook.Toolbar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+	</style>
+	
+	<style name="Spellbook.ToolbarPopup" parent="ThemeOverlay.AppCompat.Dark">
+	</style>
+	
+	
+	<style name="Spellbook.Widget.Checkbox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+		<item name="android:buttonTint">@android:color/black</item>
+	</style>
+	
+	<style name="Spellbook.Widget.RadioButton" parent="Widget.AppCompat.CompoundButton.RadioButton">
+		<item name="android:buttonTint">@android:color/black</item>
+	</style>
+	
+	
+	<style name="Spellbook.SearchView" parent="Widget.AppCompat.SearchView">
+		<item name="queryBackground">@android:color/white</item>
+		<item name="suggestionRowLayout">@android:layout/simple_list_item_1</item>
+	</style>
+	
+	<style name="Spellbook.Widget.IntPicker">
+		<item name="minValue">0</item>
+		<item name="curValue">0</item>
+		<item name="maxValue">0</item>
+		<item name="android:orientation">horizontal</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	
+	<style name="Spellbook.NoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+	
+	<style name="Spellbook.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+</resources>

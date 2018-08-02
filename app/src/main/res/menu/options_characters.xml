@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<item
+		android:id="@+id/menu_action_create"
+		android:icon="@android:drawable/ic_menu_add"
+		android:title="@string/create_character"
+		/>
+	<item
+		android:id="@+id/menu_action_export"
+		android:title="@string/export_characters"/>
+	<item
+		android:id="@+id/menu_action_import"
+		android:title="@string/import_characters"/>
+	<item
+		android:id="@+id/menu_action_delete"
+		android:icon="@android:drawable/ic_menu_delete"
+		android:title="@string/delete_database"/>
+	<item
+		android:id="@+id/menu_action_init"
+		android:icon="@android:drawable/stat_sys_download"
+		android:title="@string/initialize_database"/>
+	<item
+		android:id="@+id/menu_action_preferences"
+		android:icon="@drawable/ic_settings"
+		android:menuCategory="system"
+		android:title="@string/settings"/>
+</menu>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<PreferenceCategory
+		android:title="Show spell summary">
+		
+		<CheckBoxPreference
+			android:defaultValue="true"
+			android:key="show_summary_scroll"
+			android:title="In scrolls page"/>
+		<CheckBoxPreference
+			android:defaultValue="true"
+			android:key="show_summary_slot"
+			android:title="In slots page"/>
+		<CheckBoxPreference
+			android:defaultValue="false"
+			android:key="show_summary_known"
+			android:title="In known page"/>
+		<CheckBoxPreference
+			android:defaultValue="true"
+			android:key="show_summary_prepare"
+			android:title="In slot assignment screen"/>
+	</PreferenceCategory>
+</PreferenceScreen>

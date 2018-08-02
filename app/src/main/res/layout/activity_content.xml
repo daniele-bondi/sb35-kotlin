@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="it.meridian.sb35.Activity">
+	
+	<android.support.design.widget.AppBarLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		>
+		
+		<android.support.v7.widget.Toolbar
+			android:id="@+id/toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="40dp"
+			android:theme="@style/Spellbook.Toolbar"
+			app:popupTheme="@style/Spellbook.ToolbarPopup"
+			app:title="@string/app_name">
+		</android.support.v7.widget.Toolbar>
+	</android.support.design.widget.AppBarLayout>
+	
+	<fragment
+		android:id="@+id/navigation_host"
+		android:name="androidx.navigation.fragment.NavHostFragment"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="4dp"
+		app:defaultNavHost="true"
+		app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior"
+		app:navGraph="@navigation/navigation"
+		tools:layout="@layout/frag_nav_characters"/>
+	
+	<!--<android.support.design.widget.FloatingActionButton-->
+	<!--android:layout_height="wrap_content"-->
+	<!--android:layout_width="wrap_content"-->
+	<!--android:src="@android:drawable/ic_input_add"-->
+	<!--android:layout_gravity="bottom|end"-->
+	<!--android:layout_margin="16dp"-->
+	<!--android:clickable="true"-->
+	<!--android:focusable="true"/>-->
+</android.support.design.widget.CoordinatorLayout>

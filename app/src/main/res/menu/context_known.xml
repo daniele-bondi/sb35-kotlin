@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<item
+		android:id="@+id/menu_action_update_study"
+		android:title="@string/set_study_time"/>
+	<item
+		android:id="@+id/menu_action_update_copy"
+		android:title="@string/set_copy_time"/>
+	<item
+		android:id="@+id/menu_action_delete"
+		android:title="@string/unlearn"/>
+</menu>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<item
+		android:id="@+id/menu_action_create"
+		android:icon="@android:drawable/ic_menu_add"
+		android:title="@string/add_slots"
+		/>
+	<item
+		android:id="@+id/menu_action_recover"
+		android:title="@string/recover_all"/>
+	<item
+		android:id="@+id/menu_action_toggle_summary"
+		android:title="@string/toggle_summary"
+		android:visible="false"/>
+	<item
+		android:id="@+id/menu_action_preferences"
+		android:icon="@drawable/ic_settings"
+		android:menuCategory="system"
+		android:title="@string/settings"/>
+</menu>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<item
+		android:id="@+id/menu_action_update"
+		android:title="@string/set_caster_level"/>
+	<item
+		android:id="@+id/menu_action_delete"
+		android:title="@string/use_scroll"/>
+</menu>
